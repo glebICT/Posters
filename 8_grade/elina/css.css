@@ -1,0 +1,16 @@
+section{
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    border: 20px solid rgb(31, 148, 142);
+    margin-left:auto;
+    margin-right: auto;
+   background-image:url('image.jpg') ;
+}
+div{
+    align-items: center;
+    text-align: center;
+    position:fixed;
+    font-size:45px;
+    color: antiquewhite;
+}
