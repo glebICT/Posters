@@ -1,1 +1,1 @@
-Projects are available (https://glebict.github.io/Posters/)[https://glebict.github.io/Posters/]
+Projects are available [https://glebict.github.io/Posters/](https://glebict.github.io/Posters/)
