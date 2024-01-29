@@ -1,0 +1,40 @@
+html{
+background-color: rgb(149, 142, 134);
+}
+h1{
+    font-size: 40PX;
+    text-align: center;
+    margin:30px auto;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin:0 auto;
+    background:rgb(255, 119, 0);
+    width: 350px;
+    height: 70px;
+}
+body{
+     display: flex;
+  height: 100dvh;
+}
+section{
+    background-image: url('volley.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position: center;
+  width: 10000px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.4);
+
+}

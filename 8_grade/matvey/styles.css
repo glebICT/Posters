@@ -1,0 +1,65 @@
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+    width: 150;
+    height: 570px;
+    font-size: 70px;
+    position: relative;
+    
+
+    padding: 2rem;
+    margin: auto auto;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: 100dvh;
+    background-color: rgb(255, 251, 224);
+}
+
+.a1 {
+    position: relative;
+    border-bottom: 40px rgb(88, 238, 140) solid;
+  
+}
+.a1 h1{
+    margin: 0
+    
+}
+.a1 h2{
+    position: absolute;
+    font-size: 3rem;
+    /* right: 80px; */
+
+    bottom: -100px;
+}
+
+.a3 {
+    position: relative;
+    
+  
+}
+
+.a3 {
+ 
+    
+    position: relative;
+   
+}
+
+.a3 h1{
+    /* position: absolute; */
+    font-size: 3rem;
+    right: 80px;
+    top: -70px;
+}
+
+#wave {
+    height: 200px;
+    transform:rotate(0deg); 
+    transition: 0.3s
+}
