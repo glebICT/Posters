@@ -1,0 +1,25 @@
+html{
+    background-color: darkcyan;
+}
+body{
+    display: flex;
+    height: 100dhv;
+}
+section{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin:0 auto;
+    background: rgb(10, 8, 8);
+}
