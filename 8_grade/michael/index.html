@@ -9,7 +9,16 @@
         
          body{display: flex;
             height: 100dvh;
+            background-color: rgb(46, 44, 42);
         }
+
+        .img{
+            margin: auto;
+            height: 500px;
+            width: 100px;
+            position: absolute;
+        }
+
         .div1{
             background-color: rgb(114, 109, 96);
             width: 680px;
@@ -21,6 +30,9 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            z-index: 3;
+            rotate: 2deg;
+
         }
         
         .div2{
@@ -30,6 +42,19 @@
             position: relative;
             margin: auto;
             border-radius: 3px;
+            rotate: 5deg;
+            z-index: 2;
+        }
+
+        .div3{
+            background-color: rgb(75, 69, 61);
+            width: 700px;
+            height: 520px;
+            position: relative;
+            margin: auto;
+            border-radius: 3px;
+            rotate: -3deg;
+            z-index: -1;
         }
 
         h1{
@@ -37,18 +62,54 @@
             position: relative;
         }
 
+        .div_docs{
+            background-color: rgb(114, 109, 96);
+            border-radius: 5px;
+            height: 600px;
+            width: 500px;
+            text-align: center;
+            z-index: -2;
+            margin: auto;
+        }
+        
+        .div_docs2{
+            background-color: rgb(77, 73, 66);
+            border-radius: 5px;
+            height: 640px;
+            width: 540px;
+            z-index: -3;
+            rotate: 50deg;
+            margin-left: auto;
+            margin-top: 0px;
+            position: absolute;
+        }
+
 </style>
-<body>    
-    
-   
+<body>
+    <div class="div3">    
     <div class="div2">
+       
+                
+        </div>
         <div class="div1">
-            <p1>"PRIOR" shopping center</p1> 
+                    <p1>"PRIOR" shopping center</p1> 
              </h1>
              <img src="1545290342627.jpg">
              <p2>Kosice, Slovakia 1973</p2>
-         </div>
+
+            </div>
     </div>
+
+    <div class="div_docs2">
+    
+    <div class="div_docs">
+        <p>СПРАВКА</p>
+        <p>ФИО_______________</p>
+        <p>ГОР_______________</p>
+        <p>ДАТА_______________</p>
+    </div>
+</div>
+
 </body>
 </head>
 </html>
