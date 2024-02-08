@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <style>
-
     body {
         display: flex;
         height: 90vh;
@@ -9,37 +8,62 @@
         justify-content: center;
     }
 
-    .a {
+    .stop {
         position: absolute;
-        top: 230px;
+        top: 30px;
         left: 7px;
         background-color: rgba(255, 255, 255, 0.5);
-        font-size: 370%;
+        font-size: 360%;
+    }
+
+    .wish {
+        position: absolute;
+        top: 30px;
+        left: 280px;
+        background-color: rgba(180, 180, 180, 0.5);
+        font-size: 390%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
 
-    .b {
+    .start {
         position: absolute;
-        top: 360px;
+        top: 160px;
         left: 7px;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(200, 200, 250, 0.5);
         font-size: 380%;
     }
 
-    .c {
+    .will {
+        position: absolute;
+        top: 160px;
+        left: 300px;
+        background-color: rgba(100, 100, 150, 0.6);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 400%;
+    }
+
+    .box {
         width: 500px;
         height: 250px;
         background: rgb(20, 80, 90, 0.5);
         margin: auto;
         position: relative;
         border: 1px solid black;
-        border-radius: 50px 10px;
+        border-radius: 50px 20px;
         text-shadow: 3px 3px 7px black;
     }
 
+    .d {
+        background-image: url(Screnshot_Reaper_Leviathan_04.jpg.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
 </style>
 
-<html>
+<html class="d">
+
 
 <head>
     <meta charset="UTF-8">
@@ -47,18 +71,28 @@
     <title>Document</title>
 </head>
 
-<body>
-    
-    <div class="c">
-        <background>
-            <img src="Screnshot_Reaper_Leviathan_04.jpg.webp" alt="">
-        </background>
 
-        <div class="a">
-            Stop saying "I wish"
+<body>
+
+
+
+    <div class="box">
+
+
+        <div class="stop">
+            Stop saying
         </div>
-        <div class="b">
-            Start saying "I will"
+
+        <div class="wish">
+            "I wish"
+        </div>
+
+        <div class="start">
+            Start saying
+        </div>
+
+        <div class="will">
+            "I will"
         </div>
     </div>
 </body>
