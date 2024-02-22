@@ -1,1 +1,119 @@
-Tried to copy Luca's project without any modification
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .blue {
+            border-bottom: 20px solid rgb(86, 143, 196);
+            border-radius: 1%;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background: rgb(187, 199, 252);
+        }
+
+        section {
+            width: 1300px;
+            height: 2400px;
+            margin: auto;
+            overflow: hidden;
+            background: rgb(255, 255, 255);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 5px 5 px 5px 5 px #ccc;
+        }
+
+        div {
+            padding: 30px;
+            width: 1200px;
+            height: 30px;
+            font-size: 70px;
+            margin: auto;
+        }
+
+        .q1 {
+            right: 50px;
+            top: 150px;
+            width: 600px;
+        }
+
+        .q2 {
+            right: 50px;
+            top: 150px;
+            width: 600px;
+        }
+
+        .one h1 {
+            position: absolute;
+            left: 30px;
+            bottom: -60px;
+        }
+
+        .two h1 {
+            position: absolute;
+            left: 30px;
+            bottom: -60px;
+
+        }
+
+        .one {
+            position: relative;
+            background: rgb(239, 241, 255);
+            width: 600px;
+            height: 30px;
+        }
+
+        .two {
+            position: relative;
+            background: rgb(255, 196, 242);
+            width: 600px;
+            height: 30px;
+        }
+        .rotateup{
+            transform: rotate(-30deg) translate(100px, -290px);
+        }  
+        .rotatedown{
+            transform: rotate(-30deg) translate(100px, 290px);
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img src="Wave2.png" class="rotateup"/>
+        <div class="q1">
+            <h1>
+                Stop saying
+            </h1>
+        </div>
+        <div class="one">
+            <h1>
+                I WISH!
+            </h1>
+        </div>
+
+        <div class="q2">
+            <h1>
+                Stop saying
+            </h1>
+        </div>
+        <div class="two">
+            <h1>
+                I WILL!
+            </h1>
+        </div>
+        <img src="Wave4.png" class="rotatedown"/>
+        
+    </section>
+
+</body>
+
+</html>
