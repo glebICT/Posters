@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: black; /* Фон страницы черный */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white; /* Белый цвет текста по умолчанию */
+}
+.poster {
+    background-color: orange; /* Фон постера оранжевый */
+    color: black; /* Текст черный */
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 40px; /* Отступы внутри постера */
+    border-radius: 10px; /* Скругленные углы */
+    text-align: center;
+}
+.ps-text {
+    margin-top: 20px; /* Отступ сверху */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: orange; /* Оранжевый цвет текста */
+    font-weight: bold; /* Жирный текст */
+}

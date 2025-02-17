@@ -1,0 +1,33 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 400vh;
+
+}
+section{
+  display: inline;
+width: 300px;
+height: 300px;
+border: 5px solid rgb(170, 255, 0);
+background-image: linear-gradient(180deg, rgb(0, 255, 68), rgb(255, 247, 0));
+text-align: center;
+display: grid;
+place-items: center;
+border: solid orange;
+height: 300px
+
+}
+h1{
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  p{
+    color: red;
+    text-transform: uppercase;
+  }
+}
+h2{
+color: green;
+text-transform: uppercase;
+
+}

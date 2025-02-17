@@ -1,0 +1,19 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 400vh;
+
+}
+section{
+  display: inline;
+width: 300px;
+height: 300px;
+border: 5px solid rgb(252, 154, 7);
+background-image: linear-gradient(180deg, red, yellow);
+text-align: center;
+display: grid;
+place-items: center;
+border: solid orange;
+height: 300px
+}
