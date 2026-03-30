@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column; /* ВАЖНО: теперь элементы идут сверху вниз */
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: rgb(192, 35, 35);
+      margin: 0;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(8, 40px);
+      grid-template-rows: repeat(8, 40px);
+      width: 320px;
+      height: 320px;
+      background: rgb(139, 4, 156);
+      box-shadow: 20px 20px 10px 10px rgb(63, 37, 37);
+      
+    }
+
+    div {
+      width: 40px;
+      height: 40px;
+    }
+
+    .y { background: rgb(196, 165, 0); }
+    .p { background: rgb(195, 0, 255); }
+    .d { background: rgb(60, 0, 70); }
+
+    .text {
+      font-size: 20px;
+    }
+
+    .quote {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <!-- твой рисунок -->
+    <div class="d"></div><div class="y"></div><div class="p"></div><div class="y"></div><div class="y"></div><div class="p"></div><div class="y"></div><div class="d"></div>
+    <div class="y"></div><div class="y"></div><div class="y"></div><div class="p"></div><div class="p"></div><div class="y"></div><div class="y"></div><div class="y"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="d"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="d"></div>
+    <div class="p"></div><div class="p"></div><div class="d"></div><div class="p"></div><div class="p"></div><div class="d"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="d"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+  </section>
+
+  <!-- ТЕКСТ СНИЗУ -->
+  <div class="text">WEMMBU</div>
+  <div class="text">In PvP skill beats luck</div>
+
+</body>
+</html>

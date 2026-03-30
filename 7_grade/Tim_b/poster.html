@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encouragement</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f6f8;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            text-align: center;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+            /* Vertical gradient border (bottom to top) */
+            border: 4px solid;
+            border-image: linear-gradient(to top, #333333, #888888) 1;
+        }
+
+        /* Wrapper to preserve rounded gradient border for image */
+        .img-wrapper {
+            display: inline-block;
+            padding: 3px; /* thickness of border */
+            border-radius: 10px;
+            background: linear-gradient(to top, #333333, #888888);
+        }
+
+        img {
+            display: block;
+            width: 300px;
+            height: auto;
+            border-radius: 10px; /* matches wrapper */
+        }
+
+        .quote {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #333;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Encouraging view">
+        </div>
+        <div class="quote">
+            "Believe you can and you're halfway there."
+        </div>
+    </div>
+
+</body>
+</html>
