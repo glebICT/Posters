@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Minimal Poster</title>
+<style>
+  body {
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .poster {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(135deg, #ff004c, #1a1aff);
+    position: relative;
+    overflow: hidden;
+    border: 4px solid white;
+  }
+
+  .circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    top: 50px;
+    left: 100px;
+  }
+
+  .line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: white;
+    top: 300px;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="poster">
+  <div class="circle"></div>
+  <div class="line"></div>
+
+  <div class="text">
+    <div class="title">NO SIGNAL</div>
+    <div class="subtitle">A digital memory fades</div>
+  </div>
+</div>
+
+</body>
+</html>
