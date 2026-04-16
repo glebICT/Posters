@@ -1,0 +1,37 @@
+ <html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+        
+          section {
+             display: flex;
+             width: 1000px;
+             height: 500px;
+             background: rgb(44, 0, 0);
+          }
+
+            blockquote{
+                color: #fff;
+                font-size: 100px;
+                &[cite]::after {
+                    display: block;
+  content: " " attr(cite) " ";
+}
+            }
+            
+        </style>
+    </head>
+    <body>
+        <section>
+            <blockquote cite=
+            "By Bernabau">
+                "Are you coming to the Madrid"
+            </blockquote>
+        </section>
+    </body>
+ </html>
