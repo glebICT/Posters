@@ -1,0 +1,42 @@
+body {
+    background-image: url("MV5BMjI5MzgxMTQ4M15BMl5BanBnXkFtZTgwNjczMTk0NzE@._V1_.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+half {
+    display: block;
+    width: 45%; 
+    float: left;
+    font-size: larger;
+    -webkit-text-fill-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin-left: 20px;
+    max-width: 1000px;
+    height: auto;
+}
+.gif {
+    display: block;
+    margin-left: 20px;
+    max-width: 250px;
+    height: auto;
+}
+
+.image1 {
+    max-width: 150px;
+    margin-top: 50px;
+}
+.body1 {
+    background-image: url("the-binding-of-isaac-video-game-art-minimalism-simple-background-video-games-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
