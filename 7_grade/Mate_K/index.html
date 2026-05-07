@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>arena.glitch.jpg — VS Code Poster</title>
+
+  <!-- Font (VS Code style) -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .poster {
+      width: 1000px;
+      height: 600px;
+      background: #1e1e1e;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 40px rgba(0,0,0,0.8);
+      border-radius: 8px;
+      font-family: 'Fira Code', monospace;
+    }
+
+    /* Background Image */
+    .poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+
+    /* VS Code Top Bar */
+    .topbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 35px;
+      background: #2d2d2d;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .dots {
+      display: flex;
+      gap: 6px;
+      margin-right: 12px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .red { background: #ff5f56; }
+    .yellow { background: #ffbd2e; }
+    .green { background: #27c93f; }
+
+    .filename {
+      opacity: 0.9;
+    }
+
+    /* Code Block */
+    .code {
+      position: absolute;
+      top: 80px;
+      left: 60px;
+      color: #d4d4d4;
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 500px;
+    }
+
+    .keyword { color: #569cd6; }
+    .string { color: #ce9178; }
+    .property { color: #9cdcfe; }
+
+    /* Bottom tagline */
+    .tagline {
+      position: absolute;
+      bottom: 30px;
+      left: 60px;
+      font-size: 22px;
+      color: #00ff9c;
+    }
+
+    /* Subtle glitch effect */
+    .poster::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.02),
+        rgba(255,255,255,0.02) 2px,
+        transparent 2px,
+        transparent 4px
+      );
+      pointer-events: none;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="poster">
+
+  <!-- Your image -->
+  <img src="https://i.ytimg.com/vi/Q8JB1Y2JglM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDxdzDHZZltjuinddxr6InmRV3QAg" alt="Glitch Arena">
+
+  <!-- VS Code Top Bar -->
+  <div class="topbar">
+    <div class="dots">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+    </div>
+    <div class="filename">arena.glitch.jpg — Visual Studio Code</div>
+  </div>
+
+  <!-- Code -->
+  <div class="code">
+    <div><span class="keyword">const</span> court = {</div>
+    <div>&nbsp;&nbsp;<span class="property">location</span>: <span class="string">"Staples Center"</span>,</div>
+    <div>&nbsp;&nbsp;<span class="property">state</span>: <span class="string">"unstable"</span>,</div>
+    <div>&nbsp;&nbsp;<span class="property">geometry</span>: <span class="string">"corrupted"</span>,</div>
+    <div>&nbsp;&nbsp;<span class="property">gravity</span>: <span class="keyword">false</span></div>
+    <div>};</div>
+    <br>
+    <div><span class="keyword">function</span> renderReality() {</div>
+    <div>&nbsp;&nbsp;<span class="keyword">if</span> (court.geometry === <span class="string">"corrupted"</span>) {</div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"glitch detected"</span>;</div>
+    <div>&nbsp;&nbsp;}</div>
+    <div>}</div>
+  </div>
+
+  <!-- Bottom text -->
+  <div class="tagline">
+    &gt; Debugging Reality_
+  </div>
+
+</div>
+
+</body>
+</html>
+<div class="quote">
+  "Reality is just a system waiting to be debugged."
+</div>
