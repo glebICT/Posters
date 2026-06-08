@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: rgb(0, 225, 255);
+    position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+    h1 {
+    }
+    p {
+        font-size: 25px;
+        font-family: helvetica;
+        text-transform: uppercase;
+    }
+}
+
+section div::before {
+    display: block;
+    background-image: url(branch.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 300px;
+    content: "";
+    position: absolute;
+    left: -40px;
+}
+
+section div::after {
+    display: block;
+    background-image: url(branch.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 300px;
+    content: "";
+    position: absolute;
+    right: -40px;
+    top: 0;
+    transform: scaleX(-1);
+}
